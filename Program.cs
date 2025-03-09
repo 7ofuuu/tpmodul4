@@ -30,4 +30,10 @@ foreach (KodePos kodePos in listKodePos)
     }
 }
 
+Console.WriteLine("\n");
 
+DoorMachine doorMachine = new DoorMachine();
+
+doorMachine.reaksi();
+doorMachine.putarKunci();
+doorMachine.reaksi();
